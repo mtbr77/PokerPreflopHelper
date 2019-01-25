@@ -11,11 +11,7 @@ public class LECStarter {
     }
 
     public static void startPlaying() {
-
-        //Bot bot = new Bot();
-        //execService.execute(bot);
-        //GameWindows pokerWindowsDetector = new GameWindows();
-        GameWindows.detect(); //Tables.detect(); ?
+        GameWindows.detect();
 
         PokestarsLogParser pokestarsLogParser = new PokestarsLogParser();
         pokestarsLogParser.run();
