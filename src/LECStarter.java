@@ -21,17 +21,4 @@ public class LECStarter {
         pokestarsLogParser.run();
     }
 
-    public void RunHUD() {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                JFrame frame = new JFrame();
-                frame.setSize(400,400);
-                frame.setUndecorated(true);
-                frame.setOpacity(0.55f);
-                //frame.setShape();
-                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setVisible(true);
-            }
-        });
-    }
 }
